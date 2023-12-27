@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:h2:./s3sample;DB_CLOSE_ON_EXIT=TRUE
+    username: sa
+    password:
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-main.yaml
