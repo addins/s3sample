@@ -5,3 +5,9 @@ spring:
     password:
   liquibase:
     change-log: classpath:db/changelog/db.changelog-main.yaml
+application:
+  object-storage:
+    service-endpoint: http://localhost:9100
+    bucket-name: s3sample-bucket
+    access-key: minio
+    secret-key: minio
